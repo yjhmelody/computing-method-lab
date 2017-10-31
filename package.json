@@ -1,0 +1,15 @@
+{
+  "name": "matjs",
+  "version": "0.1.0",
+  "description": "matrix lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "matrix",
+    "math"
+  ],
+  "author": "yjhmelody",
+  "license": "ISC"
+}
