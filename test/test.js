@@ -6,7 +6,7 @@ let U = [
     [0, 0, 1]
 ]
 let y = [0, 11, 1]
-console.log(util.backSubstitution(U, y))
+// console.log(util.backSubstitution(U, y))
 
 
 U = [
