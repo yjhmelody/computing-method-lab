@@ -13,6 +13,7 @@
   "author": "yjhmelody",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "scanf": "^1.0.0"
   }
 }
