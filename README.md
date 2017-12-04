@@ -30,7 +30,23 @@ $ bin/backSubstitution.js
 * backSubstitution
 * chaseMethod
 * GaussianEliminatio
-* integral
+* integral (里面实现3个复化求积算法)
+
+
+integral:在test.js
+```js
+let util = require('./index')
+
+let PI = 3.141592653
+
+let pai = function(x){
+    return 4 / (1 + x * x)
+}
+
+console.log('PI', util.integral(pai, 0, 1, 100000, algo="T"))
+console.log('PI', util.integral(pai, 0, 1, 100000, algo="S"))
+console.log('PI', util.integral(pai, 0, 1, 100000, algo="C"))
+```
 
 
 文档在[out/util.js.html](out/util.js.html)里，部分文档是内部接口。
