@@ -48,3 +48,12 @@ U = [
 y = [-4, 0, -6]
 
 ArrayApproximateEqual(util.GaussianEliminatio(U, y), [1, 1, 8])
+
+let pai = function(x){
+    return 4 / (1 + x * x)
+}
+
+let PI = 3.141592653
+console.log('PI', util.integral(pai, 0, 1, 100000, algo="T"))
+console.log('PI', util.integral(pai, 0, 1, 100000, algo="S"))
+console.log('PI', util.integral(pai, 0, 1, 100000, algo="C"))

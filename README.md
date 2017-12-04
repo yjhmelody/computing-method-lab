@@ -6,13 +6,14 @@
 
 ## 目录结构
 
-lib/util.js里面是实现细节，包含许多内部辅助函数
+[lib/util.js](lib/util.js)里面是实现细节，包含许多内部辅助函数
 
-test/test.js里面测试了实现的算法，可以直接在里面更改测试数据来测试
+[test/test.js](test/test.js)里面测试了实现的算法，可以直接在里面更改测试数据来测试，可以`查看这里来理解接口`使用
 
 bin/`[method].js`里面是对应算法的控制台版本给老师测试，因为读文件版本不方便实现（这个命令行版本还借用了第三方库才方便实现），所以只实现了这个。demo如下:
 
 ```
+
 $ bin/backSubstitution.js
 请输入矩阵U的行数和列数
 3 3
@@ -24,6 +25,16 @@ $ bin/backSubstitution.js
 10 11 12
 [ 4.8, 0.6, 1.3333333333333333 ]
 ```
+
+`index.js` 暴露最终实现的算法接口:
+* backSubstitution
+* chaseMethod
+* GaussianEliminatio
+* integral
+
+
+文档在[out/util.js.html](out/util.js.html)里，部分文档是内部接口。
+
 
 ## 其他
 
