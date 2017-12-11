@@ -57,3 +57,12 @@ let PI = 3.141592653
 console.log('PI', util.integral(pai, 0, 1, 100000, algo="T"))
 console.log('PI', util.integral(pai, 0, 1, 100000, algo="S"))
 console.log('PI', util.integral(pai, 0, 1, 100000, algo="C"))
+
+
+function func(x, y){
+    return -2 * x * y
+}
+
+
+console.log(util.EulerFormula(func, 0, 1, 1.8, 180000))
+console.log(util.RungeKuttaMethod(func, 0, 1, 1.8, 180000, 1/2))
