@@ -31,9 +31,12 @@ $ bin/backSubstitution.js
 * chaseMethod
 * GaussianEliminatio
 * integral (里面实现3个复化求积算法)
+* EulerFormula
+* RungeKuttaMethod
 
 
-integral:在test.js
+test.js里有测试暴露给老师的测试用例，部分如下：
+
 ```js
 let util = require('./index')
 
@@ -49,9 +52,9 @@ console.log('PI', util.integral(pai, 0, 1, 100000, algo="C"))
 ```
 
 
-文档在[out/util.js.html](out/util.js.html)里，部分文档是内部接口。
+自动生成的文档在[out/util.js.html](out/util.js.html)里，部分文档是内部接口。
 
 
 ## 其他
 
-存放在github只是为了个人方便，之后可能打算换语言来实现（用JS写这些全是坑）。
+存放在github只是为了个人方便，之后可能打算换语言来实现（用JS写这些真是喜忧参半）。

@@ -1,14 +1,19 @@
 {
   "name": "matjs",
   "version": "0.1.0",
-  "description": "matrix lib",
+  "description": "computing-method course's lab",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
   },
   "keywords": [
     "matrix",
-    "math"
+    "math",
+    "computing-method",
+    "numeric analysis",
+    "lab",
+    "integral",
+    "formula"
   ],
   "author": "yjhmelody",
   "license": "ISC",
