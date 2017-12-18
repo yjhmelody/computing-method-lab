@@ -65,6 +65,11 @@ function func(x, y){
 
 // 0.03916389509898707
 console.log('精确解:', 0.03916389509898707)
-console.log(util.EulerFormula(func, 0, 1, 1.8, 1800000))
-console.log(util.RungeKuttaMethod(func, 0, 1, 1.8, 18000000, 1/2))
-console.log(util.RungeKuttaMethod(func, 0, 1, 1.8, 1800000, 1/2))
+console.log('EulerFormula', util.EulerFormula(func, 0, 1, 1.8, 1800000))
+console.log('RungeKuttaMethod', util.RungeKuttaMethod(func, 0, 1, 1.8, 18000000, 1/2))
+
+
+let x = [30, 45, 60]
+y = [1/2, 0.5 ** 0.5, 0.75 ** 0.5]
+console.log(util.diffQuotient(x, y, 2))
+console.log(util.NewtonInterpolation(x, y, 2)(50))

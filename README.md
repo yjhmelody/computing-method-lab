@@ -33,7 +33,8 @@ $ bin/backSubstitution.js
 * integral (里面实现3个复化求积算法)
 * EulerFormula
 * RungeKuttaMethod
-
+* diffQuotient(返回差商表给牛顿插值使用)
+* NewtonInterpolation(返回一个拟合的函数，可以根据传入x返回拟合的y)
 
 test.js里有测试暴露给老师的测试用例，部分如下：
 
