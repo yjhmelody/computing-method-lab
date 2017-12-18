@@ -1,6 +1,6 @@
 {
-  "name": "matjs",
-  "version": "0.1.0",
+  "name": "computing-method",
+  "version": "0.4.0",
   "description": "computing-method course's lab",
   "main": "index.js",
   "scripts": {
