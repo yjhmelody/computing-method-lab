@@ -35,6 +35,7 @@ $ bin/backSubstitution.js
 * RungeKuttaMethod
 * diffQuotient(返回差商表给牛顿插值使用)
 * NewtonInterpolation(返回一个拟合的函数，可以根据传入x返回拟合的y)
+* leastSquares
 
 test.js里有测试暴露给老师的测试用例，部分如下：
 

@@ -26,3 +26,16 @@ let x = [30, 45, 60]
 let y = [1/2, 0.5 ** 0.5, 0.75 ** 0.5]
 console.log(util.diffQuotient(x, y, 2))
 console.log(util.NewtonInterpolation(x, y, 2)(50))
+
+
+let A = [
+    [2, -1],
+    [8, 4],
+    [2, 1],
+    [7, -1],
+    [4, 0]
+]
+
+let b = [1, 0, 1, 8, 3]
+// [ 0.7927199191102123, -1.4641051567239636 ]
+console.log(util.leastSquares(A, b))
